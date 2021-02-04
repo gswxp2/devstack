@@ -158,8 +158,9 @@ The default devstack services can be run by following the steps below.
 
    .. code:: sh
 
-       make dev.clone  # or, `make dev.clone.https` if you don't have SSH keys set up.
+       make dev.clone.https  # or, `make dev.clone` if you have SSH keys set up.
 
+       make dev.checkout#checkout to koa release
    You may customize where the local repositories are found by setting the
    ``DEVSTACK_WORKSPACE`` environment variable.
 
