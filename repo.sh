@@ -21,16 +21,16 @@ fi
 # (or non_release_repos and non_release_ssh_repos if they are not part
 # of Open edX releases).
 repos=(
-    "https://github.com/edx/course-discovery.git"
-    "https://github.com/edx/credentials.git"
-    "https://github.com/edx/cs_comments_service.git"
-    "https://github.com/edx/ecommerce.git"
-    "https://github.com/edx/edx-e2e-tests.git"
-    "https://github.com/edx/edx-notes-api.git"
-    "https://github.com/edx/edx-platform.git"
-    "https://github.com/edx/xqueue.git"
-    "https://github.com/edx/frontend-app-gradebook.git"
-    "https://github.com/edx/frontend-app-publisher.git"
+    "https://github.com/gswxp2/course-discovery.git"
+    "https://github.com/gswxp2/credentials.git"
+    "https://github.com/gswxp2/cs_comments_service.git"
+    "https://github.com/gswxp2/ecommerce.git"
+    "https://github.com/gswxp2/edx-e2e-tests.git"
+    "https://github.com/gswxp2/edx-notes-api.git"
+    "https://github.com/gswxp2/edx-platform.git"
+    "https://github.com/gswxp2/xqueue.git"
+    "https://github.com/gswxp2/frontend-app-gradebook.git"
+    "https://github.com/gswxp2/frontend-app-publisher"
 )
 
 non_release_repos=(

@@ -101,7 +101,7 @@ endif
 
 # All three filesystem synchronization strategies require the main docker-compose.yml file.
 COMPOSE_FILE := docker-compose.yml:$(COMPOSE_FILE)
-
+OPENEDX_RELEASE :=koa.master
 # Tell Docker Compose that the Compose file list uses a colon as the separator.
 COMPOSE_PATH_SEPARATOR := :
 
